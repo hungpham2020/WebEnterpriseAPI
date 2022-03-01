@@ -16,7 +16,6 @@ public class CustomContext : IdentityDbContext<IdentityUser>
     public DbSet<Comment> Comments{ get; set; }
     public DbSet<Post> Posts{ get; set; }
     public DbSet<UserLikePost> UserLikePosts{ get; set; }
-    public DbSet<UserDislikePost> UserDislikePosts{ get; set; }
 
 
     protected override void OnModelCreating(ModelBuilder builder)

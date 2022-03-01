@@ -10,7 +10,7 @@ using WebEnterpriseAPI.Model.DTO;
 
 namespace WebEnterpriseAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[Action]")]
     [ApiController]
     public class AuthenticationController : ControllerBase
     {
